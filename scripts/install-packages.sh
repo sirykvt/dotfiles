@@ -5,7 +5,7 @@
 # Stop the script if any command fails.
 set -e
 
-sudo pacman -S --noconfirm --needed git github-cli
+sudo pacman -S --noconfirm --needed vi git github-cli
 
 # yay.
 mkdir -p ./tmp
@@ -37,12 +37,16 @@ yay -S --noconfirm --needed pwvucontrol
 sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd ttf-noto-nerd ttf-droid
 
 # WM (Hyprland).
-sudo pacman -S --noconfirm --needed hyprland uwsm hyprpolkitagent xorg-xwayland
+sudo pacman -S --noconfirm --needed hyprland uwsm hyprpolkitagent xorg-xwayland hyprpaper
 yay -S --noconfirm --needed elephant-all ashell walker
+systemctl --user enable hyprpolkitagent
 
 # Appearance.
 sudo pacman -S --noconfirm --needed nwg-look gnome-themes-extra adw-gtk-theme papirus-icon-theme
 yay -S --noconfirm --needed kitty-gruvbox-theme-git 
+
+# Util.
+sudo pacman -S --noconfirm --needed gvfs thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin
 
 # CLI.
 sudo pacman -S --noconfirm --needed imagemagick ffmpeg 7zip jq fd ripgrep fzf zoxide resvg chafa
@@ -53,4 +57,5 @@ sudo pacman -S --noconfirm --needed btop
 # Apps.
 sudo pacman -S --noconfirm --needed code
 yay -S --noconfirm --needed google-chrome
-sudo pacman -S --noconfirm --needed thunar catfish gvfs tumbler thunar-archive-plugin thunar-volman thunar-media-tags-plugin
+
+# Games.
