@@ -44,6 +44,7 @@ yay -S --noconfirm --needed elephant-all ashell walker
 sudo pacman -S --noconfirm --needed imagemagick ffmpeg 7zip jq fd ripgrep fzf zoxide resvg chafa
 sudo pacman -S --noconfirm --needed kitty
 sudo pacman -S --noconfirm --needed yazi
+sudo pacman -S --noconfirm --needed btop
 
 # Apps.
 sudo pacman -S --noconfirm --needed code
