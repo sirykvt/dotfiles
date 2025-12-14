@@ -9,7 +9,7 @@ fi
 
 # Directory inside the repo where configs will be stored (structure will be ./home/...)
 DEST="./user"
-rmdir -r "$DEST"
+rm -R "$DEST"
 mkdir -p "$DEST"
 
 echo "User: $USER"
