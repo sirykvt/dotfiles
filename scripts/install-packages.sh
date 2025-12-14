@@ -37,7 +37,7 @@ yay -S --noconfirm --needed pwvucontrol
 sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd ttf-noto-nerd ttf-droid
 
 # WM (Hyprland).
-sudo pacman -S --noconfirm --needed hyprland uwsm hyprpolkitagent xorg-xwayland hyprpaper
+sudo pacman -S --noconfirm --needed uwsm hyprland hyprpolkitagent xdg-desktop-portal xdg-desktop-portal-hyprland xorg-xwayland hyprpaper
 yay -S --noconfirm --needed elephant-all ashell walker
 systemctl --user enable hyprpolkitagent
 
@@ -59,3 +59,4 @@ sudo pacman -S --noconfirm --needed code
 yay -S --noconfirm --needed google-chrome
 
 # Games.
+yay -S --noconfirm --needed steam-native-runtime
