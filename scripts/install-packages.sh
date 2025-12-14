@@ -40,6 +40,10 @@ sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd ttf-noto-nerd ttf-dr
 sudo pacman -S --noconfirm --needed hyprland uwsm hyprpolkitagent xorg-xwayland
 yay -S --noconfirm --needed elephant-all ashell walker
 
+# Appearance.
+sudo pacman -S --noconfirm --needed nwg-look gnome-themes-extra adw-gtk-theme
+yay -S --noconfirm --needed kitty-gruvbox-theme-git
+
 # CLI.
 sudo pacman -S --noconfirm --needed imagemagick ffmpeg 7zip jq fd ripgrep fzf zoxide resvg chafa
 sudo pacman -S --noconfirm --needed kitty

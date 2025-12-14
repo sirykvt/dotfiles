@@ -1,0 +1,6 @@
+# See https://wiki.hypr.land/Configuring/Environment-variables/
+#env = XCURSOR_SIZE,24
+#env = HYPRCURSOR_SIZE,24
+export LIBVA_DRIVER_NAME=nvidia
+#env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+#env = NVD_BACKEND,direct

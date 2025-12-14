@@ -1,0 +1,29 @@
+[global]
+monitor = 1
+follow = none
+width = (300, 300)
+height = 300
+offset = 10x10
+font = JetBrainsMono Nerd Font 10
+padding = 10
+horizontal_padding = 10
+frame_width = 2
+frame_color = "#89B4FA"
+corner_radius = 10
+enable_recursive_icon_lookup = true
+icon_theme = Papirus-Dark
+icon_position = left
+max_icon_size = 64
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"

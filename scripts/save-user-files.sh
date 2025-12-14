@@ -9,6 +9,7 @@ fi
 
 # Directory inside the repo where configs will be stored (structure will be ./home/...)
 DEST="./user"
+rmdir -r "$DEST"
 mkdir -p "$DEST"
 
 echo "User: $USER"
@@ -43,11 +44,19 @@ copy_item ".zshrc"
 copy_item ".gitconfig"
 
 copy_item ".config/ashell"
+copy_item ".config/walker"
 copy_item ".config/dunst"
 copy_item ".config/hypr"
 copy_item ".config/kitty"
 copy_item ".config/uwsm"
 copy_item ".config/yazi"
+copy_item ".config/nwg-look"
+
+copy_item ".config/gtk-3.0/settings.ini"
+copy_item ".gtkrc-2.0"
+copy_item ".icons/default/index.theme"
+copy_item ".config/xsettingsd/xsettingsd.conf"
+copy_item ".config/gtk-4.0"
 
 echo "---"
 echo "Done! Files copied to the $DEST folder."
