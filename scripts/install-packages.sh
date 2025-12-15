@@ -5,17 +5,15 @@
 # Stop the script if any command fails.
 set -e
 
+rm -rf ./tmp
 mkdir -p ./tmp
 
 # yay.
-
-rm -rf ./tmp/yay
 git clone https://aur.archlinux.org/yay.git ./tmp/yay
 cd ./tmp/yay || exit
 makepkg -si
 cd -
 
-rm -rf ./tmp/g810-led
 git clone https://github.com/sirykvt/g810-led.git ./tmp/g810-led
 cd ./tmp/g810-led || exit
 make || exit
@@ -72,8 +70,7 @@ sudo pacman -S --noconfirm --needed dotnet-sdk
 sudo pacman -S --noconfirm --needed git github-cli
 
 ## Code
-sudo pacman -S --noconfirm --needed code
-yay -S --noconfirm --needed rider
+yay -S --noconfirm --needed rider visual-studio-code-bin 
 
 # Apps.
 yay -S --noconfirm --needed google-chrome telegram-desktop
