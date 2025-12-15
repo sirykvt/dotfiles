@@ -45,6 +45,7 @@ sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd ttf-noto-nerd ttf-dr
 
 # WM (Hyprland).
 sudo pacman -S --noconfirm --needed uwsm hyprland hyprpolkitagent xdg-desktop-portal xdg-desktop-portal-hyprland grim slurp geoclue xorg-xwayland hyprpaper
+sudo pacman -S --noconfirm --needed grim slurp wl-clipboard
 yay -S --noconfirm --needed elephant-all ashell walker
 systemctl --user enable hyprpolkitagent
 
