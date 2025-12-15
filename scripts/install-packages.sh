@@ -14,6 +14,8 @@ cd ./tmp/yay || exit
 makepkg -si
 cd -
 
+# Keyboard led.
+sudo pacman -S --noconfirm --needed hidapi
 git clone https://github.com/sirykvt/g810-led.git ./tmp/g810-led
 cd ./tmp/g810-led || exit
 make || exit

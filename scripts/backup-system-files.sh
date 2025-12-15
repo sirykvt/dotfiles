@@ -47,6 +47,7 @@ copy_file "/etc/vconsole.conf"
 copy_file "/etc/hostname"
 copy_file "/etc/sudoers"
 copy_file "/etc/environment"
+copy_file "/etc/greetd/config.toml"
 
 echo "---"
 
