@@ -58,7 +58,7 @@ sudo pacman -S --noconfirm --needed nwg-look gnome-themes-extra adw-gtk-theme pa
 yay -S --noconfirm --needed kitty-gruvbox-theme-git 
 
 # Util.
-sudo pacman -S --noconfirm --needed gvfs thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin
+sudo pacman -S --noconfirm --needed gvfs thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin qt6ct
 
 # CLI.
 sudo pacman -S --noconfirm --needed imagemagick ffmpeg 7zip jq fd ripgrep fzf zoxide resvg chafa
