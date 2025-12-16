@@ -1,0 +1,3 @@
+# See https://wiki.hypr.land/Configuring/Environment-variables/
+export LIBVA_DRIVER_NAME=nvidia
+export QT_QPA_PLATFORMTHEME=qt6ct
