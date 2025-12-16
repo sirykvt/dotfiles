@@ -34,6 +34,7 @@ install_system() {
 		wireplumber
 		pwvucontrol
 		gvfs
+		network-manager-applet
 	)
 	yay -S --noconfirm --needed "${SYSTEM_PKGS[@]}"
 
