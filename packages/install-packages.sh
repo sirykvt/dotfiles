@@ -67,14 +67,15 @@ install_wm() {
 		hyprpolkitagent
 		xdg-desktop-portal
 		xdg-desktop-portal-hyprland
+		dunst
 		grim
 		slurp
 		geoclue
 		xorg-xwayland
 		hyprpaper
 		wl-clipboard
+		waybar
 		elephant-all
-		ashell
 		walker
 	)
 	yay -S --noconfirm --needed "${WM_PKGS[@]}"
@@ -91,7 +92,6 @@ install_appearance() {
 		nwg-look
 		gnome-themes-extra
 		papirus-icon-theme
-		qt5ct
 		qt6ct
 	)
 	yay -S --noconfirm --needed "${APPEARANCE_PKGS[@]}"
@@ -136,6 +136,7 @@ install_cli() {
 		chafa
 		yazi
 		btop
+		systemctl-tui
 	)
 	yay -S --noconfirm --needed "${CLI_PKGS[@]}"
 }

@@ -18,7 +18,7 @@
             <bool>false</bool>
         </edit>
         <edit name="lcdfilter" mode="assign">
-            <const>lcddefault</const>
+            <const>lcdnone</const>
         </edit>
         <edit name="dpi" mode="assign">
             <double>102</double>
