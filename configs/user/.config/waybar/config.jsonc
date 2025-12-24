@@ -7,12 +7,7 @@
 
   "modules-left": ["cpu", "memory", "custom/nvidia"],
   "modules-center": ["hyprland/workspaces"],
-  "modules-right": [
-    "tray",
-    "hyprland/language",
-    "wireplumber",
-    "clock",
-  ],
+  "modules-right": ["tray", "hyprland/language", "wireplumber", "clock"],
 
   "cpu": {
     "interval": 1,
@@ -28,7 +23,7 @@
     "exec": "~/.config/waybar/scripts/mako.sh",
     "on-click": "makoctl mode -t dnd",
     "restart-interval": 1,
-  },2
+  },
   "custom/nvidia": {
     "exec": "~/.config/waybar/scripts/nvidia.sh",
     "return-type": "json",
